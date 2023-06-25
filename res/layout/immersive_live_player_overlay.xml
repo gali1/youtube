@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/reel_player_error" />
+    <RelativeLayout android:id="@id/immersive_live_player" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/immersive_accessibility_player_overlay" android:importantForAccessibility="no" android:layoutDirection="locale">
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/immersive_live_header" android:layout_alignParentBottom="true" layout="@layout/live_chat_in_reel_watch_overlay" />
+        <include android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="yes" layout="@layout/immersive_live_navigation_controls" />
+        <ViewStub android:id="@id/immersive_live_quick_seek_overlay_stub" android:layout="@layout/quick_seek_overlay_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:layout_gravity="top" android:id="@id/immersive_live_scrim_top" android:background="@drawable/reel_scrim_shorts_while_top" android:layout_width="fill_parent" android:layout_height="@dimen/reel_scrim_shorts_while_height_top_gradient" />
+        <FrameLayout android:gravity="end|center|top" android:layout_gravity="top" android:id="@id/immersive_live_top_banner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/immersive_live_top_banner_height" android:layout_marginTop="@dimen/immersive_live_top_banner_top_margin" android:layout_below="@id/immersive_live_header" android:importantForAccessibility="no" android:layout_alignParentStart="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/immersive_live_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layoutDirection="locale" android:layout_alignParentStart="true">
+            <ImageView android:layout_gravity="start|center|top" android:id="@id/immersive_live_header_back_button" android:background="@drawable/reel_circular_button_background" android:padding="@dimen/reel_header_option_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/yt_outline_arrow_left_black_24" android:tint="?ytOverlayTextPrimary" android:minWidth="@dimen/immersive_live_back_button_min_width" android:contentDescription="@string/reel_accessibility_player_back_button" />
+            <FrameLayout android:gravity="center_vertical" android:id="@id/immersive_live_header_elements_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+    <include android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/immersive_live_endscreen" />
+</FrameLayout>

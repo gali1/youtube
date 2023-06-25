@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/device_picker_metadata_layout_parent" android:paddingTop="@dimen/devicepicker_metadata_container_padding_top" android:paddingBottom="@dimen/devicepicker_metadata_container_padding_bottom" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/devicepicker_route_container_min_height" android:paddingStart="@dimen/devicepicker_title_padding_start" android:paddingEnd="@dimen/devicepicker_route_container_padding_end">
+        <ImageView android:id="@id/device_picker_metadata_icon" android:background="@drawable/metadata_imageview" android:layout_width="@dimen/devicepicker_metadata_icon_layout_width" android:layout_height="@dimen/devicepicker_metadata_icon_layout_height" android:contentDescription="@null" android:layout_marginEnd="@dimen/devicepicker_metadata_icon_margin_end" android:clipToOutline="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/device_picker_metadata_text_holder" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip">
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?ytTextAppearanceTitle2" android:ellipsize="marquee" android:gravity="start" android:id="@id/device_picker_metadata_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="viewStart" />
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?ytTextAppearanceBody1a" android:ellipsize="marquee" android:gravity="start" android:id="@id/device_picker_metadata_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="viewStart" />
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?ytTextAppearanceBody1b" android:ellipsize="marquee" android:gravity="start" android:id="@id/device_picker_metadata_ad_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="viewStart" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

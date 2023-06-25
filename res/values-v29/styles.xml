@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OneGoogle.Dialog.Material.Base" parent="@style/OneGoogle.Dialog.Material.Base.V29" />
+    <style name="Theme.YouTube.New.BaseBottomSheetDialog" parent="@style/Base.Theme.YouTube.BaseBottomSheetDialog">
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarDividerColor">@android:color/transparent</item>
+        <item name="enableEdgeToEdge">true</item>
+    </style>
+    <style name="OneGoogle.Dialog.Material.Base.V29" parent="@style/OneGoogle.Dialog.Material.Base.V27">
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

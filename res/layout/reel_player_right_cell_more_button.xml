@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/reel_more_button" android:visibility="visible" android:layout_width="@dimen/reel_player_right_more_button_width" android:layout_height="@dimen/reel_player_right_more_button_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/more_button_icon" android:layout_width="@dimen/reel_player_right_more_button_icon" android:layout_height="@dimen/reel_player_right_more_button_icon" android:contentDescription="@string/reel_accessibility_pivot_page_menu_button" />
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/more_button_anim" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:lottie_autoPlay="false" app:lottie_loop="false" />
+</FrameLayout>

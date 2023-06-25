@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/reel_player_overlay_scrims" />
+    <FrameLayout android:id="@id/immersive_live_preview_player" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:gravity="center" android:layout_gravity="center" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="yes" android:layout_marginStart="@dimen/reel_control_group_margin" android:layout_marginEnd="@dimen/reel_control_group_margin" layout="@layout/reel_player_navigation_controls" />
+        <FrameLayout android:layout_gravity="start|bottom|center" android:id="@id/immersive_live_preview_footer" android:paddingBottom="@dimen/immersive_live_preview_footer_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="no" />
+    </FrameLayout>
+    <include android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/reel_player_error" />
+    <include android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/immersive_live_endscreen" />
+</FrameLayout>

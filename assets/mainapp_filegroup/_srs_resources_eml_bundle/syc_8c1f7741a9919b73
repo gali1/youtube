@@ -1,0 +1,2 @@
+
+syc|8c1f7741a9919b73Πvar wg=class extends v{static g(){return new wg(l(7))}static parse(a){return new wg(n(a,7))}create(a){return new wg(a)}get R(){return t(this.h,1,a=>new Pe(a),1)}set R(a){this.h.j(1,a,11)}get context(){return t(this.h,3,a=>new Ee(a),0)}set context(a){this.h.j(3,a,11)}ja(){return p(this.h,4)}get I(){return t(this.h,4,a=>new Fe(a),6)}set I(a){this.h.j(4,a,11)}hasExtension(a){return p(this.h,a.fieldNumber)}getExtension(a){return a.J(this.h)}A(a,b){a.L(this.h,b)}};(σ¶ΖΜθέ

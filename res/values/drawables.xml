@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="connection_toolbar_back_arrow">@drawable/quantum_ic_arrow_back_grey600_24</item>
+    <item type="drawable" name="selectable_item_background_solid_dark">@drawable/selectable_item_background_solid</item>
+    <item type="drawable" name="selectable_item_background_solid_light">@drawable/selectable_item_background_solid</item>
+    <item type="drawable" name="yt_fill_youtube_logo_24">@drawable/yt_fill_youtube_logo_black_24</item>
+</resources>

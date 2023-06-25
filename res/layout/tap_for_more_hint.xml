@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textColor="?ytOverlayTextPrimary" android:gravity="center" android:id="@id/tap_for_more_hint" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tap_hint" android:shadowColor="?ytOverlayBackgroundMediumLight" android:shadowDx="@integer/reel_edit_video_tap_for_more_shadow" android:shadowDy="@integer/reel_edit_video_tap_for_more_shadow" android:shadowRadius="@integer/reel_edit_video_tap_for_more_shadow_radius" android:alpha="0.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

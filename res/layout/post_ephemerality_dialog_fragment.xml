@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CompatElevationZ4">
+        <android.support.v7.widget.Toolbar android:theme="?callToActionButtonActionBarTheme" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" yt:navigationIcon="@drawable/yt_outline_arrow_left_black_24" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <RelativeLayout android:id="@id/time_picker_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/ephemerality_time_picker_start" android:layout_marginEnd="@dimen/ephemerality_time_picker_start" />
+    </ScrollView>
+</LinearLayout>
