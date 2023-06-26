@@ -32,7 +32,7 @@
     <Preference android:title="@string/sb_settings" android:summary="@string/sb_summary">
         <intent android:targetPackage="com.vanced.android.youtube" android:data="sponsorblock_settings" android:targetClass="fi.razerman.youtube.XSettingActivity" />
     </Preference>
-    <Preference android:title="@string/xfile_settings" android:summary="18.23.38 - Build - 00.00.00 ">
+    <Preference android:title="@string/xfile_settings" android:summary="18.25.38 - Build - 00.00.00 ">
         <intent android:targetPackage="com.vanced.android.youtube" android:data="vanced_settings" android:targetClass="fi.razerman.youtube.XSettingActivity" />
     </Preference>
     <Preference android:title="@string/pref_about_category" android:key="@string/about_key" android:fragment="com.google.android.apps.youtube.app.settings.AboutPrefsFragment" app:iconSpaceReserved="false" />
