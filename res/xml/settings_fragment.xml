@@ -26,6 +26,15 @@
     <Preference android:title="@string/pref_settings_accessibility" android:key="@string/accessibility_settings_key" android:fragment="com.google.android.apps.youtube.app.settings.accessibility.AccessibilityPrefsFragment" app:iconSpaceReserved="false" />
     <Preference android:title="@string/pref_dogfood_category" android:key="@string/dogfood_settings_key" android:fragment="com.google.android.apps.youtube.app.settings.dogfood.DogfoodPrefsFragment" app:iconSpaceReserved="false" />
     <Preference android:title="@string/pref_developer_category" android:key="@string/developer_settings_key" android:fragment="com.google.android.apps.youtube.app.settings.developer.DeveloperPrefsFragment" app:iconSpaceReserved="false" />
+    <Preference android:title="@string/vanced_ryd_settings_title" android:summary="@string/vanced_ryd_settings_summary">
+        <intent android:targetPackage="com.vanced.android.youtube" android:data="ryd_settings" android:targetClass="fi.razerman.youtube.XSettingActivity" />
+    </Preference>
+    <Preference android:title="@string/sb_settings" android:summary="@string/sb_summary">
+        <intent android:targetPackage="com.vanced.android.youtube" android:data="sponsorblock_settings" android:targetClass="fi.razerman.youtube.XSettingActivity" />
+    </Preference>
+    <Preference android:title="@string/xfile_settings" android:summary="18.23.38 - Build - 00.00.00 ">
+        <intent android:targetPackage="com.vanced.android.youtube" android:data="vanced_settings" android:targetClass="fi.razerman.youtube.XSettingActivity" />
+    </Preference>
     <Preference android:title="@string/pref_about_category" android:key="@string/about_key" android:fragment="com.google.android.apps.youtube.app.settings.AboutPrefsFragment" app:iconSpaceReserved="false" />
     <Preference android:title="@string/pref_refresh_config" android:key="@string/refresh_config_key" android:fragment="placeholder" app:iconSpaceReserved="false" />
 </PreferenceScreen>
