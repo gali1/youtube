@@ -345,6 +345,7 @@
         <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.google.android.apps.youtube.app.settings.offline.activity.SmartDownloadsStorageControlsActivity"/>
         <activity android:configChanges="keyboardHidden" android:exported="false" android:label="@string/settings" android:name="com.google.android.apps.youtube.app.settings.SettingsActivity" android:theme="@style/Theme.YouTube.Settings"/>
         <activity android:configChanges="keyboardHidden" android:exported="false" android:label="@string/settings" android:name="com.google.android.apps.youtube.app.settings.videoquality.VideoQualitySettingsActivity" android:theme="@style/Theme.YouTube.Settings">
+        <activity android:configChanges="keyboardHidden" android:exported="true" android:label="Vanced settings" android:name="fi.razerman.youtube.XSettingActivity" android:theme="@style/Theme.YouTube.Settings"/>
             <intent-filter>
                 <action android:name="com.google.android.apps.youtube.app.settings.videoquality.VideoQualitySettings"/>
                 <category android:name="android.intent.category.DEFAULT"/>
@@ -352,6 +353,7 @@
         </activity>
         <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.google.android.apps.youtube.app.vr.LaunchYouTubeVrActivity" android:noHistory="true" android:theme="@style/Theme.YouTube.LaunchYouTubeVrActivity"/>
         <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="true" android:launchMode="singleTask" android:name="com.google.android.apps.youtube.app.watchwhile.WatchWhileActivity" android:resizeableActivity="true" android:supportsPictureInPicture="true" android:theme="@style/Theme.YouTube.Home" android:windowSoftInputMode="adjustResize">
+
             <intent-filter>
                 <action android:name="android.intent.action.SEARCH"/>
             </intent-filter>
